@@ -4,6 +4,9 @@ on:
   pull_request:
     branches:
       - main
+  push:
+    braches:
+      - main
 
 jobs:
   autotests-run:
